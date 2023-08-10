@@ -35,13 +35,13 @@ The Paint Program supports the following commands:
 
 - h: Help (display available commands)
 - q: Quit the program
-- w row_start col_start row_end col_end: Draw a line from (row_start, col_start) to (row_end, col_end)
-- r num_rows num_cols: Resize the canvas to num_rows rows and num_cols columns
-- a [r | c] pos: Add a row or column at position pos (use r for row, c for column)
-- d [r | c] pos: Delete a row or column at position pos (use r for row, c for column)
-- e row col: Erase the cell at (row, col)
-- s file_name: Save the canvas to a file named file_name
-- l file_name: Load a canvas from a file named file_name
+- w: row_start col_start row_end col_end: Draw a line from (row_start, col_start) to (row_end, col_end)
+- r: num_rows num_cols: Resize the canvas to num_rows rows and num_cols columns
+- a: [r | c] pos: Add a row or column at position pos (use r for row, c for column)
+- d: [r | c] pos: Delete a row or column at position pos (use r for row, c for column)
+- e: row col: Erase the cell at (row, col)
+- s: file_name: Save the canvas to a file named file_name
+- l: file_name: Load a canvas from a file named file_name
 The program will continue to prompt for commands until you exit using the 'q' command.
 
 ## Contributing
